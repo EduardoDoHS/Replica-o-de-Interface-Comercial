@@ -1,0 +1,44 @@
+.fundo {
+    background-color: rgba(17, 202, 248, 0.562);
+    width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 10px;  
+    padding-left: 2rem;
+}  
+
+.menu_item {  
+    background-color: #007bff;  
+    color: white;  
+    padding: 5px;  
+    text-align: center;  
+    border-radius: 14px;  
+    cursor: pointer;  
+    transition: background-color 0.3s; 
+     
+}  
+
+.menu_item:hover {  
+    background-color: #0056b3;  
+} 
+
+.imagem {
+    width: 100%;
+    max-width: 300px;
+}
+
+.imagem img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
