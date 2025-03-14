@@ -5,6 +5,13 @@
     border-radius: 10px;
 }
 
+.fundo_compras {
+    background-color: rgba(17, 202, 248, 0.562);
+    width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .flex {
     display: flex;
 }
