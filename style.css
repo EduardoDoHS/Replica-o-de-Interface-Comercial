@@ -10,10 +10,12 @@
     width: 1200px;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
 }
 
 .flex {
     display: flex;
+    padding-top: 20px;
 }
 
 .menu {  
@@ -41,11 +43,26 @@
 .imagem {
     width: 100%;
     max-width: 300px;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 .imagem img {
+    margin: 10px;
     width: 100%;
     object-fit: contain;
+}
+
+.status_de_pedido{
+    background-color: rgba(17, 202, 248, 0.562);
+    width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.dados{
+    padding-top: 100px;
 }
 
 
