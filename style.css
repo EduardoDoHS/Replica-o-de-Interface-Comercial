@@ -16,6 +16,7 @@
 .flex {
     display: flex;
     padding-top: 20px;
+    justify-content: space-between;
 }
 
 .menu {  
@@ -55,14 +56,127 @@
 
 .status_de_pedido{
     background-color: rgba(17, 202, 248, 0.562);
-    width: 1200px;
+    width: 550px;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
+    justify-content: center;
+    height: 345px;
 }
 
 .dados{
     padding-top: 100px;
 }
+
+.div{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.linha{
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.header{
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+tr{
+    height: 30px;
+}
+
+table{
+    width: 550px;
+    
+}
+
+td{
+    text-align: center;
+}
+
+
+.recomendacoes {  
+    text-align: left;  
+    margin-bottom: 20px;  
+}  
+.produtos {  
+    display: flex;  
+    justify-content: center;  
+    padding: 10px;  
+    gap: 20px;  
+}  
+.produto {  
+    background-color: white;  
+    border: 1px solid #ccc;  
+    border-radius: 8px;  
+    padding: 15px;  
+    bottom: 200px;
+
+}  
+.produto img {  
+    max-width: 100%;  
+    border-radius: 8px;  
+    
+}  
+.preco {  
+    color: #333;  
+    margin-top: 10px;  
+}  
+.ver-todas {  
+    display: block;  
+    margin-top: 20px;  
+    text-decoration: none;  
+    color: #007BFF;  
+    font-weight: bold;  
+}  
+
+
+
+.mensagens {  
+    background-color: white;  
+    border-radius: 1px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    padding: 10px;  
+}  
+.titulo {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+.mensagem {  
+    border-bottom: 1px solid #ccc;  
+    padding: 19px 0;  
+    display: flex;   
+    align-items: center;  
+}  
+.mensagem:last-child {  
+    border-bottom: none;  
+}  
+.usuario {  
+    display: flex;  
+    align-items: center;  
+}  
+.usuario img {  
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    margin-right: 10px;  
+}  
+.texto {  
+    flex-grow: 1;  
+}  
+  
+.ver-todas {  
+    display: block;  
+    text-align: center;  
+    margin-top: 10px;  
+    text-decoration: none;  
+    color: #007BFF;  
+    font-weight: bold;  
+}  
 
 
