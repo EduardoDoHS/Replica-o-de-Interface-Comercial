@@ -1,6 +1,6 @@
 .fundo {
     background-color: rgba(17, 202, 248, 0.562);
-    width: 600px;
+    width: 1150px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -60,7 +60,7 @@
     padding: 20px;
     border-radius: 10px;
     justify-content: center;
-    height: 386px;
+    height: 344px;
     color: #0056b3;
 }
 
