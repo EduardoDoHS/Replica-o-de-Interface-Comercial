@@ -13,6 +13,16 @@
     display: flex;
 }
 
+.status_de_pedido{
+    background-color: rgba(17, 202, 248, 0.562);
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    height: 344px;
+    color: #0056b3;
+}
+
 .flex {
     display: flex;
     padding-top: 20px;
@@ -54,15 +64,7 @@
     object-fit: contain;
 }
 
-.status_de_pedido{
-    background-color: rgba(17, 202, 248, 0.562);
-    width: 550px;
-    padding: 20px;
-    border-radius: 10px;
-    justify-content: center;
-    height: 344px;
-    color: #0056b3;
-}
+
 
 .dados{
     padding-top: 100px;
